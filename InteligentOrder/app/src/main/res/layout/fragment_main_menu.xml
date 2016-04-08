@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <org.ecjtu.inteligentorder.customui.TopMenu
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_weight="0.1"
+        android:id="@+id/top_title"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2">
+        <org.ecjtu.inteligentorder.customui.HotItemShow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </org.ecjtu.inteligentorder.customui.HotItemShow>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        >
+        <org.ecjtu.inteligentorder.customui.AdvanceScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/advance_scroll_view_container"
+                android:orientation="vertical">
+
+           <!--     <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <org.ecjtu.inteligentorder.customui.CustomOrderItem
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>-->
+            </LinearLayout>
+
+        </org.ecjtu.inteligentorder.customui.AdvanceScrollView>
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@android:color/holo_green_dark" />
+
+    <!-- 非触摸模式下获得焦点并单击时的背景图片 -->
+    <item android:state_focused="true" android:state_pressed="true"
+          android:drawable= "@android:color/holo_red_dark" />
+
+    <!-- 触摸模式下单击时的背景图片-->
+
+    <item android:state_focused="false" android:state_pressed="true"
+          android:drawable="@android:color/background_dark" />
+
+    <!--选中时的图片背景-->
+
+    <item android:state_selected="true"   android:drawable="@android:color/holo_purple" />
+
+    <!--获得焦点时的图片背景-->
+
+    <item android:state_focused="true"
+          android:drawable="@android:color/holo_orange_dark" />
+</selector>
